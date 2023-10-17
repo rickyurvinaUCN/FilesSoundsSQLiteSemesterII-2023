@@ -9,7 +9,7 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
-
+import com.example.filessoundssqlite.R;
 import com.example.filessoundssqlite.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {

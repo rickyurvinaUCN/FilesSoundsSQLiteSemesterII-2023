@@ -6,17 +6,87 @@
     android:layout_height="match_parent"
     tools:context=".ui.notifications.NotificationsFragment">
 
-    <TextView
-        android:id="@+id/text_notifications"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+
+    <FrameLayout
+        android:id="@+id/frameLayout5"
+        android:layout_width="97dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/scr_1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/img_v1"
+            android:layout_width="133dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/uvas_description"
+            android:src="@android:mipmap/sym_def_app_icon"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_hide"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:text="@string/hide" />
+    </FrameLayout>
+
+    <ScrollView
+        android:id="@+id/scr_1"
+        android:layout_width="304dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/ly_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/img_sandia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#A73017"
+                android:contentDescription="@string/sandia_description"
+                android:src="@drawable/sandia" />
+
+            <ImageButton
+                android:id="@+id/img_pina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B0C67B"
+                android:contentDescription="@string/pina_description"
+                android:src="@drawable/pina" />
+
+            <ImageButton
+                android:id="@+id/img_pera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4EA456"
+                android:contentDescription="@string/pera_description"
+                android:src="@drawable/pera" />
+
+            <ImageButton
+                android:id="@+id/img_melon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4E85A4"
+                android:contentDescription="@string/melon_description"
+                android:src="@drawable/melon" />
+
+            <ImageButton
+                android:id="@+id/img_manzana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8E4EA4"
+                android:contentDescription="@string/manzanas_description"
+                android:src="@drawable/manzanas" />
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
