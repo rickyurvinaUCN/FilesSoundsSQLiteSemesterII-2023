@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">FilesSoundsSQLite</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="txt_email">Ingrese su email</string>
+    <string name="save">Guardar</string>
+    <string name="search">Buscar</string>
+    <string name="txt_nombre">Nombre</string>
+    <string name="info">Información</string>
+    <string name="shared_preferences">Shared Preferences</string>
+    <string name="writing_files">Escribiendo en Archivos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_sqlite">CRUD SQLite</string>
+    <string name="register">Registrar producto</string>
+    <string name="edit">Editar Producto</string>
+    <string name="delete">Eliminar producto</string>
+    <string name="search_product">Buscar producto</string>
+    <string name="code">Código</string>
+    <string name="description">Descripción</string>
+    <string name="price">Precio</string>
+    <string name="fragment_linear_layout">LinearLayout</string>
+    <string name="login">Ingresar</string>
+    <string name="name">Nombre</string>
+    <string name="password">Contraseña</string>
+    <string name="fragment_table_layout">Table Layout</string>
+
+    <string name="number_0">0</string>
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="number_3">3</string>
+    <string name="number_4">4</string>
+    <string name="number_5">5</string>
+    <string name="number_6">6</string>
+    <string name="number_7">7</string>
+    <string name="number_8">8</string>
+    <string name="number_9">9</string>
+    <string name="substract">-</string>
+    <string name="sum">+</string>
+    <string name="multiply">*</string>
+    <string name="divide">/</string>
+    <string name="result">=</string>
+    <string name="restore_values">Restaurar valores</string>
+    <string name="txt_view">0</string>
+    <string name="fragment_frame_layout">Frame Layout + ScrollView</string>
+    <string name="hide">Ocultar</string>
+    <string name="uvas_description">Descripcion de las uvas</string>
+    <string name="sound_pool">AUDIO CON SOUNDPOOL</string>
+    <string name="media_player">AUDIO CON MEDIAPLAYER</string>
+    <string name="fragment_sound_player">REPRODUCCIÓN DE AUDIO</string>
+</resources>
